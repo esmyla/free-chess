@@ -1,0 +1,7 @@
+stockfish-19-lite-single.js and stockfish-19-lite-single.wasm in this folder are the Stockfish 19
+chess engine compiled to WebAssembly by the Stockfish.js project. They are redistributed unmodified
+from the npm package stockfish@19.0.1 under the GNU General Public License v3 (see COPYING.txt).
+
+Corresponding source code:
+  https://github.com/nmrugg/stockfish.js (release v19.0.1)
+  which builds on https://github.com/official-stockfish/Stockfish
