@@ -1,0 +1,33 @@
+{
+  "name": "free-chess",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "description": "Personal chess trainer: game review, analysis, puzzles, bots, opening explorer and insights. Runs entirely in your browser.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "setup:engine": "node scripts/copy-engine.mjs",
+    "build:openings": "node scripts/build-openings.mjs",
+    "build:puzzles": "node scripts/build-puzzles.mjs",
+    "deploy": "node scripts/deploy.mjs"
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "chessground": "^9.2.1",
+    "idb": "^8.0.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "stockfish": "^19.0.1",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.6"
+  }
+}
